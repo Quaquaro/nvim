@@ -26,6 +26,7 @@ return {
   },
   {
     import = "plugins.languages.d2",
+    enabled = false,
   },
   {
     import = "plugins.languages.docker",
@@ -45,13 +46,13 @@ return {
   },
   {
     import = "plugins.languages.gitlab",
-    enabled = false,
   },
   {
     import = "plugins.languages.go",
   },
   {
     import = "plugins.languages.grafana",
+    enabled = false,
   },
   {
     import = "plugins.languages.groovy",
@@ -59,6 +60,7 @@ return {
   },
   {
     import = "plugins.languages.hcl",
+    enabled = false
   },
   {
     import = "plugins.languages.helm",
@@ -82,15 +84,19 @@ return {
   },
   {
     import = "plugins.languages.just",
+    enabled = false
   },
   {
     import = "plugins.languages.kbd",
+    enabled = false
   },
   {
     import = "plugins.languages.kotlin",
+    enabled = false
   },
   {
     import = "plugins.languages.kubernetes",
+    enabled = false
   },
   {
     import = "plugins.languages.latex",
@@ -110,13 +116,14 @@ return {
   },
   {
     import = "plugins.languages.nix",
-    enabled = false,
   },
   {
     import = "plugins.languages.openapi",
+    enabled = false,
   },
   {
     import = "plugins.languages.plantuml",
+    enabled = false,
   },
   {
     import = "plugins.languages.powershell",
@@ -124,15 +131,18 @@ return {
   },
   {
     import = "plugins.languages.proto",
+    enabled = false,
   },
   {
     import = "plugins.languages.python",
   },
   {
     import = "plugins.languages.react",
+    enabled = false,
   },
   {
     import = "plugins.languages.redis",
+    enabled = false,
   },
   {
     import = "plugins.languages.rust",
@@ -150,12 +160,14 @@ return {
   },
   {
     import = "plugins.languages.terraform",
+    enabled = false,
   },
   {
     import = "plugins.languages.toml",
   },
   {
     import = "plugins.languages.typescript",
+    enable = false
   },
   {
     import = "plugins.languages.utils",

@@ -134,9 +134,9 @@ M.cheatsheet = {
 }
 
 M.base46 = {
-  theme = "catppuccin",
+  theme = "rosepine",
   transparency = false,
-  theme_toggle = { "catppuccin", "one_light" },
+  theme_toggle = { "rosepine", "one_light" },
   integrations = {
     "avante",
     "blankline",
@@ -173,7 +173,7 @@ M.base46.hl_override = {
   FlashCurrent = { bg = "yellow", fg = "black" },
 }
 
-if M.base46.theme == "catppuccin" then
+if M.base46.theme == "rosepine" then
   M.base46.hl_override.Search = { fg = "NONE", bg = "one_bg2" }
 end
 
